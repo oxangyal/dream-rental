@@ -67,11 +67,11 @@ const Navbar = () => {
                             <Image
                                 className="h-10 w-auto"
                                 src={logo}
-                                alt="PropertyPulse"
+                                alt="Dream Rentals"
                             />
 
                             <span className="hidden md:block text-white text-2xl font-bold ml-2">
-                                PropertyPulse
+                                Dream Rentals
                             </span>
                         </Link>
                         {/* <!-- Desktop Menu Hidden below md screens --> */}
@@ -106,7 +106,6 @@ const Navbar = () => {
                                 >
                                     Add Property
                                 </Link>
-                                {/* )} */}
                             </div>
                         </div>
                     </div>
@@ -130,7 +129,6 @@ const Navbar = () => {
                                 )}
                         </div>
                     </div>
-                    {/* )} */}
 
                     {/* <!-- Right Side Menu (Logged In) --> */}
 
@@ -159,6 +157,7 @@ const Navbar = () => {
                                     />
                                 </svg>
                             </button>
+                            {/* <UnreadMessageCount session={session} /> */}
                         </Link>
                         {/* <!-- Profile dropdown button --> */}
                         <div className="relative ml-3">
@@ -236,6 +235,7 @@ const Navbar = () => {
                             )}
                         </div>
                     </div>
+                    {/* )} */}
                 </div>
             </div>
 
